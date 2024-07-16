@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: white;
+    background-color: #333;
     color: #fff;
 }
 
@@ -13,7 +13,6 @@
     font-size: 1.8rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: black;
 }
 
 nav {
@@ -32,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(2, 2, 2);
+    color: #fff;
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -44,12 +43,12 @@ nav ul li a {
 
 .social-link {
     margin-left: 10px;
-    color: black;
+    color: #fff;
 }
 
 .schedule-button {
     padding: 10px 20px;
-    background-color: #d642d2;
+    background-color: #2ecc71;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -57,23 +56,5 @@ nav ul li a {
 }
 
 .schedule-button:hover {
-    background-color: #489fbc;
-}
-
-.left-content {
-    flex: 1;
-    padding: 20px;
-    text-align: left;
-}
-
-
-.left-content h2 {
-    font-size: 2.5rem;
-    color: blue;
-    margin-bottom: 10px;
-}
-
-.left-content p {
-    font-size: 1rem; /* Small font size */
-    color: #333; /* Default text color */
+    background-color: #27ae60;
 }

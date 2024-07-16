@@ -57,23 +57,5 @@ nav ul li a {
 }
 
 .schedule-button:hover {
-    background-color: #489fbc;
-}
-
-.left-content {
-    flex: 1;
-    padding: 20px;
-    text-align: left;
-}
-
-
-.left-content h2 {
-    font-size: 2.5rem;
-    color: blue;
-    margin-bottom: 10px;
-}
-
-.left-content p {
-    font-size: 1rem; /* Small font size */
-    color: #333; /* Default text color */
+    background-color: #27ae60;
 }
