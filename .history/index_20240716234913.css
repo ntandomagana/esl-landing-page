@@ -47,10 +47,7 @@ nav ul li a {
     font-size: 1.2rem;
 }
 
-nav ul li a:hover {
-    color: #d642d2;
-    font-weight: bold;
-}
+nav ul li a
 
 .social-links {
     display: flex;

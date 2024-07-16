@@ -47,11 +47,6 @@ nav ul li a {
     font-size: 1.2rem;
 }
 
-nav ul li a:hover {
-    color: #d642d2;
-    font-weight: bold;
-}
-
 .social-links {
     display: flex;
     align-items: center;
@@ -59,18 +54,9 @@ nav ul li a:hover {
 }
 
 .social-link {
-    margin: 0 10px;
+    margin-left: 10px;
     display: inline-block;
     color: black;
-    font-size: 30px;
-}
-
-.social-link i {
-    color:#2980b9;
-}
-
-.social-link:hover i {
-    color: #d642d2;
 }
 
 .schedule-button {
