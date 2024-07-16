@@ -91,53 +91,31 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items:
 }
 
 
 .left-content h2 {
     font-size: 2.5rem;
-    color: rgb(116, 116, 196);
+    color: blue;
     margin-bottom: 10px;
-    width: 100%;
 }
 
 .left-content p {
     font-size: 1rem;
-    color: #333;
-    width: 100%;
+    color: #333; 
 }
 
 .right-content {
     flex: 1;
     padding: 20px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .right-content img {
     max-width: 100%;
     height: auto;
-    max-height: 800px; /* Example maximum height, adjust as needed */
+    max-height: 400px; /* Example maximum height, adjust as needed */
     border-radius: 8px;
-    /* Optional: Adds a subtle shadow */
-}
-
-.action-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    margin-top: 20px; /* Add space above the button */
-    position: relative;
-     z-index: 1; 
-}
-
-.action-button:hover {
-    background-color: #2980b9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
 }
