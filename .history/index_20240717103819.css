@@ -104,14 +104,16 @@ nav ul li a:hover {
     text-align: left;
     display: flex;
     flex-direction: column;
+    .transparent-logo {
+    opacity: 0.7; /* Adjust the value as needed (0 is fully transparent, 1 is fully opaque) */
+}
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 
 .left-content h2 {
     font-size: 5rem;
-    align-items: flex-end;
     color: rgb(116, 116, 196);
     margin-bottom: 10px;
     width: 100%;

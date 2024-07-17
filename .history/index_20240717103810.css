@@ -105,13 +105,13 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 
 .left-content h2 {
     font-size: 5rem;
-    align-items: flex-end;
+   
     color: rgb(116, 116, 196);
     margin-bottom: 10px;
     width: 100%;
