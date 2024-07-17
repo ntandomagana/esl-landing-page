@@ -124,11 +124,9 @@ nav ul li a:hover {
 }
 
 .left-content p {
-  font-size: 20px;
+  font-size: 1rem;
   color: #333;
   width: 100%;
-  font-weight: bold;
-  line-height: 1.5;
 }
 
 .right-content {
@@ -265,3 +263,4 @@ footer {
         margin: 0 0 20px; /* Adjust margin for spacing */
     }
 }
+Explanation

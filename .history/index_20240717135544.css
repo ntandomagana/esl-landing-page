@@ -124,11 +124,9 @@ nav ul li a:hover {
 }
 
 .left-content p {
-  font-size: 20px;
+  font-size: 1rem;
   color: #333;
   width: 100%;
-  font-weight: bold;
-  line-height: 1.5;
 }
 
 .right-content {
@@ -181,12 +179,13 @@ nav ul li a:hover {
 
 .testimonials-container {
     display: flex;
-    justify-content: center; /* Center align items horizontally */
-    gap: 20px;
+    justify-content: space-around; /* Center align items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    margin-top: 20px;
 }
 
 .testimonial-item {
-    width: 300px; /* Adjust width as needed */
+    width: calc(50% - 20px); /* Adjust width as needed */
     margin: 0 10px; /* Adjust margin between testimonials */
     padding: 20px;
     background-color: #fff;
@@ -224,44 +223,10 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
-/* index.css */
-
-/* Styles for header, main content, testimonials, etc. */
-
-footer {
-    background-color: white;
-    color: black;;
-    padding: 
-    text-align: center;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-container p {
-    margin: 0;
-    font-size: 14px;
-}
-
-
 
 @media (max-width: 768px) {
-    .content-wrapper {
-        flex-direction: column; /* Stack columns vertically on smaller screens */
-        text-align: center;
-    }
-
-    .left-content, .right-content {
-        padding: 10px; /* Adjust padding for smaller screens */
-    }
-
     .testimonial-item {
-        width: 100%; /* Full width for testimonials on smaller screens */
-        margin: 0 0 20px; /* Adjust margin for spacing */
+        width: calc(100% - 20px); /* Full width on smaller screens */
+        margin: 0 10px 20px; /* Adjust margin for spacing */
     }
 }

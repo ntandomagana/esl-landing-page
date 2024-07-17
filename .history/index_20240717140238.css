@@ -124,11 +124,9 @@ nav ul li a:hover {
 }
 
 .left-content p {
-  font-size: 20px;
+  font-size: 1rem;
   color: #333;
   width: 100%;
-  font-weight: bold;
-  line-height: 1.5;
 }
 
 .right-content {
@@ -251,17 +249,8 @@ footer {
 
 
 @media (max-width: 768px) {
-    .content-wrapper {
-        flex-direction: column; /* Stack columns vertically on smaller screens */
-        text-align: center;
-    }
-
-    .left-content, .right-content {
-        padding: 10px; /* Adjust padding for smaller screens */
-    }
-
     .testimonial-item {
-        width: 100%; /* Full width for testimonials on smaller screens */
-        margin: 0 0 20px; /* Adjust margin for spacing */
+        width: calc(100% - 20px); /* Full width on smaller screens */
+        margin: 0 10px 20px; /* Adjust margin for spacing */
     }
 }
