@@ -1,0 +1,166 @@
+/* styles.css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+} 
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px; /* Adjust margin to add space between list items */
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.social-link {
+    margin: 0 10px;
+    display: inline-block;
+    color: black;
+    font-size: 30px;    
+    transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.social-link i {
+    color: black;
+}
+
+.social-link:hover i {
+    color: black;
+    transition: black 4s ease-in-out;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(19, 18, 18, 0.2);
+}
+
+.schedule-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.schedule-button:hover {
+    background-color: #fff;
+    border-color: ;
+}
+
+.content-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.left-content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.left-content h2 {
+    font-size: 5rem;
+    align-items: flex-end;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.left-content p {
+    font-size: 1rem;
+    color: #333;
+    width: 100%;
+}
+
+.right-content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-content img {
+    max-width: 100%;
+    height: auto;
+    max-height: 800px; /* Example maximum height, adjust as needed */
+    border-radius: 8px;
+    /* Optional: Adds a subtle shadow */
+}
+
+.action-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Add space above the button */
+    position: relative;
+     z-index: 1; 
+}
+
+.action-button:hover {
+    background-color: #2980b9;
+}

@@ -112,7 +112,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 
 .left-content h2 {
@@ -146,8 +146,7 @@ nav ul li a:hover {
   /* Optional: Adds a subtle shadow */
 }
 
-.action-button {
-    display: inline-block;
+.action-button {display: block;
   padding: 18px 40px;
   background-color: black;
   color: #fff;
